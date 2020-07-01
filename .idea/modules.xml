@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/python_string_casting.iml" filepath="$PROJECT_DIR$/.idea/python_string_casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python Content/.idea/Python Content.iml" filepath="$PROJECT_DIR$/../Python Content/.idea/Python Content.iml" />
     </modules>
   </component>
 </project>

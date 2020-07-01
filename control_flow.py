@@ -27,12 +27,6 @@
 # if age 12 or less can't watch any movies above 12
 # display messages accordingly
 
-input()
-film_rating = "3", "12", "13", "15", "18"
-age = 17
-if age >= film_rating:
-    print("Please join the queue to purchase a ticket")
-else:
-    print("Sorry you are too young to watch this film")
+
 
 
