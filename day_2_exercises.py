@@ -4,14 +4,16 @@
  # if age 12 or less can't watch any movies above 12
  # display messages accordingly
 
- age = int(input("How old are you? "))
- film_ratings = ["U", "PG", "12a","PG13", "15", "18"]
- if age >= 18:
-     print("Please join the queue to purchase a ticket")
- elif 12 <= age <= 15:
-     print("You can watch films in with these ratings ", film_ratings[0:4])
- else:
-     print("You can watch films in with these ratings ", film_ratings[0:2])
+age = int(input("How old are you? "))
+film_ratings = ["U", "PG", "12a","PG13", "15", "18"]
+if age >= 18:
+    print("Please join the queue to purchase a ticket")
+elif 14 <= age <= 17:
+    print("You can watch films in with these ratings ", film_ratings[0:5])
+elif 11 < age < 15:
+    print("You can watch films in with these ratings ", film_ratings[0:4])
+else:
+    print("You can watch films in with these ratings ", film_ratings[0:2])
 
 
 # exercise
